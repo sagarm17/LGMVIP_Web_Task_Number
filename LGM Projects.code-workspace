@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Web Developement Projects"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "LGM Projects"
+	}
+}

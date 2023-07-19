@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.heading{
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    background: #e3f9ff;
+    align-items: center;
+    justify-content: center;
+}
+.cal{
+    background: rgba(0, 0, 0, 0.74);
+    padding: 10px;
+    border-radius: 12px;
+}
+.cal form input{
+    border: 0;
+    outline: 0;
+    margin: 10px;
+    width: 55px;
+    background: transparent;
+    font-size: 18px;
+    color: #fff;
+    height: 55px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.726) , 5px 5px 15px rgba(0,0,0.3);
+    cursor: pointer;
+}
+form .display{
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 40px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 140px;
+}
+form input.operator{
+    color: #ffc400;
+}
